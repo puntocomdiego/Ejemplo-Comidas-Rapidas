@@ -85,6 +85,12 @@
     <Compile Include="FRM_COMIDAS.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_consultas.Designer.vb">
+      <DependentUpon>frm_consultas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_consultas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FRM_PLATOS_DIA.Designer.vb">
       <DependentUpon>FRM_PLATOS_DIA.vb</DependentUpon>
     </Compile>
@@ -95,6 +101,24 @@
       <DependentUpon>FRM_PRODUCTOS.vb</DependentUpon>
     </Compile>
     <Compile Include="FRM_PRODUCTOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_promociones.Designer.vb">
+      <DependentUpon>frm_promociones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_promociones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_usuarios.Designer.vb">
+      <DependentUpon>frm_usuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_usuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ventas.Designer.vb">
+      <DependentUpon>frm_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ventas.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -123,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FRM_PRODUCTOS.resx">
       <DependentUpon>FRM_PRODUCTOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_promociones.resx">
+      <DependentUpon>frm_promociones.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
