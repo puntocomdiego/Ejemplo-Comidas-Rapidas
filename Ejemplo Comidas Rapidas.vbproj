@@ -142,6 +142,9 @@
     <EmbeddedResource Include="FRM_COMIDAS.resx">
       <DependentUpon>FRM_COMIDAS.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_consultas.resx">
+      <DependentUpon>frm_consultas.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FRM_PLATOS_DIA.resx">
       <DependentUpon>FRM_PLATOS_DIA.vb</DependentUpon>
     </EmbeddedResource>
