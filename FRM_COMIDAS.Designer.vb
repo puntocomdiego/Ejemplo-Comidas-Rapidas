@@ -38,6 +38,7 @@ Partial Class FRM_COMIDAS
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -47,7 +48,7 @@ Partial Class FRM_COMIDAS
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(12, 16)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(115, 31)
+        Me.Label1.Size = New System.Drawing.Size(143, 39)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "FECHA:"
         '
@@ -57,7 +58,7 @@ Partial Class FRM_COMIDAS
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.DateTimePicker1.Location = New System.Drawing.Point(19, 58)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(204, 38)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(204, 45)
         Me.DateTimePicker1.TabIndex = 1
         '
         'Button1
@@ -94,20 +95,20 @@ Partial Class FRM_COMIDAS
         '
         Me.ListBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 31
+        Me.ListBox1.ItemHeight = 38
         Me.ListBox1.Location = New System.Drawing.Point(19, 124)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(259, 376)
+        Me.ListBox1.Size = New System.Drawing.Size(259, 346)
         Me.ListBox1.TabIndex = 5
         '
         'ListBox2
         '
         Me.ListBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.ItemHeight = 31
+        Me.ListBox2.ItemHeight = 38
         Me.ListBox2.Location = New System.Drawing.Point(681, 124)
         Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(227, 345)
+        Me.ListBox2.Size = New System.Drawing.Size(227, 308)
         Me.ListBox2.TabIndex = 6
         '
         'Button4
@@ -135,7 +136,7 @@ Partial Class FRM_COMIDAS
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(356, 266)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(59, 38)
+        Me.TextBox1.Size = New System.Drawing.Size(59, 45)
         Me.TextBox1.TabIndex = 9
         Me.TextBox1.Text = "1"
         '
@@ -173,7 +174,7 @@ Partial Class FRM_COMIDAS
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(550, 492)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(110, 31)
+        Me.Label2.Size = New System.Drawing.Size(136, 39)
         Me.Label2.TabIndex = 13
         Me.Label2.Text = "TOTAL:"
         '
@@ -183,7 +184,7 @@ Partial Class FRM_COMIDAS
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(766, 492)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(52, 31)
+        Me.Label3.Size = New System.Drawing.Size(64, 39)
         Me.Label3.TabIndex = 14
         Me.Label3.Text = "0.0"
         '
@@ -197,11 +198,22 @@ Partial Class FRM_COMIDAS
         Me.Button8.Text = "IMPRIME"
         Me.Button8.UseVisualStyleBackColor = True
         '
+        'Button9
+        '
+        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Location = New System.Drawing.Point(925, 16)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(168, 49)
+        Me.Button9.TabIndex = 16
+        Me.Button9.Text = "platos..."
+        Me.Button9.UseVisualStyleBackColor = True
+        '
         'FRM_COMIDAS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1125, 592)
+        Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -242,4 +254,5 @@ Partial Class FRM_COMIDAS
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Button8 As Button
+    Friend WithEvents Button9 As Button
 End Class
